@@ -1,0 +1,16 @@
+package javaapplication13;
+
+
+public class JavaApplication13 {
+
+    
+    public static void main(String[] args) {
+       /* Nama saya Mutmainah Talib*/
+       
+        System.out.println("ELOWW");
+        System.out.println("saya baru mulai belajar kakak Lisa :) ");
+       
+       
+    }
+    
+}
