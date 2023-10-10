@@ -1,0 +1,27 @@
+package day_2_isc;
+public class Day_2_Isc {
+
+    public static void main(String[] args) {
+         String nama = "Mutmainnah talib";
+         
+       char GD = 'O';
+       short tgllahir = 15;
+       int tahunlahir = 2005;
+       byte umur = 18;
+       double bb = 50;
+       long tinggibadan = 156;
+       float nohp = 085386591600f;
+       boolean perempuan = true;
+       
+        System.out.println("NAMA: "+nama);
+        System.out.println("GOLONGAN DARAH: "+GD);
+        System.out.println("TANGGAL LAHIR: "+tgllahir);
+        System.out.println("TAHUN LAHIR: "+tahunlahir);
+        System.out.println("UMUR: "+umur);
+        System.out.println("BERAT BADAN: "+bb);
+        System.out.println("TINGGI BADAN: "+tinggibadan);
+        System.out.println("No Hp: "+nohp);
+        System.out.println("JENIS KELAMIN PRIA: "+perempuan);
+    }
+    
+}
