@@ -21,7 +21,7 @@ public class Day_2_Isc {
         System.out.println("BERAT BADAN: "+bb);
         System.out.println("TINGGI BADAN: "+tinggibadan);
         System.out.println("No Hp: "+nohp);
-        System.out.println("JENIS KELAMIN PRIA: "+perempuan);
+        System.out.println("JENIS KELAMIN PEREMPUAN: "+perempuan);
     }
     
 }
