@@ -1,0 +1,16 @@
+package day_3_isc;
+public class Day_3_Isc {
+
+    public static void main(String[] args) {
+    String nama = "Mutmainnah talib";
+    String alamat = "Lembang";
+    char kelas = 'A';
+    double tb = 156;
+        System.out.println("perkenalkan nama saya "+nama);
+        System.out.println("alamat saya "+alamat);
+        System.out.println("saya dari kelas informatika "+kelas);
+        System.out.println("tinggi badan saya "+tb);
+        
+    }
+    
+}
