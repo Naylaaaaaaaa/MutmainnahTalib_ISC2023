@@ -1,0 +1,11 @@
+package day_4_isc;
+public class Day_4_Isc {
+    public static void main(String[] args) {
+       int angka1 = 18;
+       int angka2 = 15;
+       int penjumlahan = (angka1 + angka2);
+        System.out.println("hasil dari penjumlahan "+angka1+ "+" +angka2+ "=" +penjumlahan);
+               
+    }
+    
+}
