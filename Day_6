@@ -1,0 +1,12 @@
+package day_6;
+public class Day_6 {
+    public static void main(String[] args) {
+        int angka = 20;
+        int nilai = 8;
+        System.out.println(angka<nilai);
+        System.out.println(angka>nilai);
+        System.out.println(nilai!=angka);
+
+    }
+    
+}
