@@ -1,0 +1,15 @@
+package day_11;
+public class Day_11 {
+
+        public static void main(String[] args) {
+            short angka = 702;
+            
+            if (angka%2==0) {
+                System.out.println("angka " +angka +"adalah angka genap");
+                
+            }else {
+                System.out.println("angka " +angka +"adalah angka ganjil");
+            }
+    }
+    
+}
