@@ -1,0 +1,28 @@
+package day_12;
+import java.util.Scanner;
+public class Day_12 {
+
+       public static void main(String[] args) {
+           Scanner input = new Scanner(System.in);
+           
+           System.out.println("masukkan bilangan bulat m: ");
+           int m = input.nextInt();
+           
+           System.out.println("masukkan bilangan bulat n: ");
+           int n = input.nextInt();
+           
+           if (m < n) {
+               int total = 0;
+               for (int i = m + 1; i < n; i++) {
+                   System.out.print(i);
+                   total += i;
+                   if (i < n - 1) {
+                       System.out.println("+");
+                   }
+               }
+               System.out.println("=" + total);
+           }else {
+               System.out.println("bilangan m harus lebih kecil dari n");
+           }
+       }
+}
