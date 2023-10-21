@@ -1,0 +1,34 @@
+package day_13;
+public class Day_13 {
+
+    public static void main(String[] args) {
+        int angka,nilai;
+        angka = 7;
+        nilai = 2;
+        boolean x; 
+        /*
+        ini di buat oleh dua orang kak bekerja sama, jadi maklum kalau sama persis
+        tetapi memahami kok kak 
+        */
+        x = nilai>angka;
+        System.out.println("apakah nilai lebih besar dari angka: " +x);
+        
+        x = nilai<angka;
+        System.out.println("apakah nilai lebih kecil dari angka: " +x);
+ 
+        x = nilai>=angka;
+        System.out.println("apakah nilai lebih besar sama dengan angka: "+x);
+        
+        x = nilai<angka;
+        System.out.println("apakah nilai lebih kecil sama dengan angka: "+x);
+        
+        x = nilai==angka;
+        System.out.println("apakah nilai sama dengan angka: "+x);
+        
+        x = nilai!=angka;
+        System.out.println("apakah nilai tidak sama dengan angka : "+x);
+                
+        
+    }
+    
+}
