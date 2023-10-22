@@ -1,0 +1,32 @@
+package quiz;
+import java.util.Scanner;
+public class Quiz {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan Kalimat: ");
+        
+        String kalimat = input.nextLine();
+        String kalimatModifikasi = "";
+        
+        for (int a = 0; a < kalimat.length(); a++){
+            char huruf = kalimat.charAt(a);
+            
+            if (huruf == 'a'){
+                kalimatModifikasi += "apa";
+            }else if (huruf == 'i'){
+                kalimatModifikasi += "ipi";
+            }else if (huruf == 'u'){
+                kalimatModifikasi += "upu";
+            }else if (huruf == 'e'){
+                kalimatModifikasi += "epe";
+            }else if (huruf == 'o'){
+                kalimatModifikasi += "opo";
+                
+            }
+        }  
+        System.out.println("kalimat asli : " + kalimat);
+        System.out.println("kalimat modifikasi: " + kalimatModifikasi);
+    }
+    
+}
