@@ -1,0 +1,30 @@
+package latihansoal;
+import java.util.Scanner;
+public class LatihanSoal {
+
+    public static void main(String[] args) {
+        double hargaPerMeter = 300000;
+        double pajak3Persen = 0.03;
+        double pajak10Persen = 0.1;
+        
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("masukkan luas tanah (dalam meter persegi: " );
+        double luasTanah = input.nextDouble();
+        
+        double totalHarga = hargaPerMeter * luasTanah;
+        double pajakDikenakan;
+        
+        if (totalHarga > 100000000) {
+            pajakDikenakan = totalHarga * pajak10Persen;
+        }else if (totalHarga > 50000000){
+            pajakDikenakan = totalHarga * pajak3Persen;
+        }
+        else { 
+            pajakDikenakan= totalHarga * 0.01;    
+        }
+        double uangBersih = totalHarga - pajakDikenakan;
+        System.out.println("uang bersih yang didapatkan setelah dipotong pajak adalah: Rp %.2f%n");
+    }
+    
+}
