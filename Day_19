@@ -1,0 +1,22 @@
+package day_19;
+import java.util.Scanner;
+public class Day_19 {
+
+    public static void main(String[] args) {
+        //menghitung cicilan bulanan tanpa bunga
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("masukkan jumlah pinjaman:");
+        double jumlahPinjaman = input.nextDouble();
+        
+        System.out.print("masukkan jangka waktu pinjaman:");
+        int jangkaWaktuPinjaman = input.nextInt();
+        
+        double cicilanBulanan = jumlahPinjaman / jangkaWaktuPinjaman;
+        
+        System.out.println("jumlah pinjaman:" + jumlahPinjaman);
+        System.out.println("jangka waktu pinjaman: " + jangkaWaktuPinjaman);
+        System.out.println("cicilan bulanann: " + cicilanBulanan);
+    }
+    
+}
