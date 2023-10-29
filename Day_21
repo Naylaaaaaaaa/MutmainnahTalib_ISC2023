@@ -1,0 +1,18 @@
+package hellow;
+import java.util.Scanner;
+public class Hellow {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("berapa usia anda?");
+        int usia = input.nextInt();
+        
+        if (usia >= 18){
+            System.out.println("boleh membeli minuman beralkohol");
+            
+        }else {
+            System.out.println("Maaf, anda belum cukup umur untuk membeli minuman beralkohol");
+        }
+    }
+    
+}
