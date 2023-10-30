@@ -1,0 +1,22 @@
+package javaprojek;
+import java.util.Scanner;
+public class JavaProjek {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("masukkan harga barang");
+        double harga = input.nextDouble();
+        
+        if (harga >= 1000){
+            double diskon = harga * 0.1;
+            double hargaAkhir = harga - diskon;
+            System.out.println("anda mendapatkan diskon sebesar Rp " + diskon);
+            System.out.println("harga akhir: Rp " + hargaAkhir);
+            
+        }else {
+            System.out.println("tidak ada diskon. harga tetap: Rp " + harga);
+        }
+        input.close();
+      }        
+    }
+    
+
