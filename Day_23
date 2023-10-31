@@ -1,0 +1,15 @@
+package main;
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan batas atas angka: ");
+        int batasAtas = input.nextInt();
+        for (int angka = 3; angka <= batasAtas; angka+=3) {
+            System.out.print(angka+" ");
+                
+            }
+        }
+
+    }
