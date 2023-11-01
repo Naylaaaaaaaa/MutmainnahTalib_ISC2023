@@ -1,0 +1,12 @@
+package perulangan;
+public class Perulangan {
+
+    public static void main(String[] args) {
+       //memunculkan kelipatan 5 dari angka 2-100
+        for (int i = 2; i < 100; i+=5) {
+            System.out.println(i);
+            
+        }
+    }
+    
+}
