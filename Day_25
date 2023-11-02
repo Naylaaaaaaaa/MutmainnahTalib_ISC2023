@@ -1,0 +1,18 @@
+package percabangan;
+import java.util.Scanner;
+public class Percabangan {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("umur berapa?");
+        int umur = input.nextInt();
+        
+        if (umur >= 18){
+            System.out.println("anda sudah cukup umur untuk membeli rokok");
+            
+        }else {
+            System.out.println("anda belum cukup umur untuk membeli rokok");
+            
+        }
+    }
+}
