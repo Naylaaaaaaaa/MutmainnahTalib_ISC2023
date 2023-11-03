@@ -1,0 +1,16 @@
+package Java;
+public class Main {
+    
+    public static void main(String[] args) {
+        int angka = 5;
+        
+        if (angka % 2 == 0){
+            System.out.println(angka + "adalah bilangan genap");
+            
+        }else {
+            System.out.println(angka + "adalah bilangan ganjil");
+       }
+           
+    }
+    
+}
