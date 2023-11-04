@@ -1,0 +1,14 @@
+package projek ;
+public class hello {
+    
+    public static void main(String[] args) {
+        int angka = 10;
+        
+        if (angka > 5){
+            System.out.println("angka lebih besar dari 5");
+        }else {
+            System.out.println("angka kurang dari atau sama dengan 5");
+        }
+    }
+    
+}
