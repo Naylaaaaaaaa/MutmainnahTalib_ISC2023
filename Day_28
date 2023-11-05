@@ -1,0 +1,14 @@
+package projek ;
+public class hello {
+    
+    public static void main(String[] args) {
+        int angka = 6;
+        
+        if (angka % 2 == 0){
+            System.out.println(angka + "angka adalah bilangan positif");
+        }else {
+            System.out.println(angka + "angka adalah bilangan negatif");
+        }
+    }
+    
+}
