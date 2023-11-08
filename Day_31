@@ -1,0 +1,15 @@
+package semangatt ;
+
+public class ayoo {
+    
+    public static void main(String[] args) {
+        int nilai = 75;
+        if (nilai >= 60){
+            System.out.println("anda lulus ujian");
+            
+        }else {
+            System.out.println("anda tidak lulus ujian");
+        }
+    }
+    
+}
