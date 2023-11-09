@@ -1,0 +1,11 @@
+package laaa;
+
+public class naki {
+    
+    public static void main(String[] args) {
+        int angka = 8;
+        String hasil = (angka % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("angka ini adalah" + hasil);
+    }
+    
+}
