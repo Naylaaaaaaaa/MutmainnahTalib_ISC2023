@@ -1,0 +1,17 @@
+package nayla;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        
+        boolean hasilAnd = a && b;
+        boolean hasilOr = a || b;
+        
+        System.out.println("Hasil AND: " + hasilAnd);
+        System.out.println("Hasil OR: " + hasilOr);
+    }
+}
+
+
