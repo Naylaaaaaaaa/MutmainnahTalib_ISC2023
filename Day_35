@@ -1,0 +1,23 @@
+package innah;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+
+        // Lebih besar dari
+        System.out.println("x > y: " + (x > y));
+
+        // Kurang dari
+        System.out.println("x < y: " + (x < y));
+
+        // Sama dengan
+        System.out.println("x == y: " + (x == y));
+
+        // Tidak sama dengan
+        System.out.println("x != y: " + (x != y));
+    }
+}
+
+    
